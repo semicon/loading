@@ -1,3 +1,5 @@
+function myFunction() {
+  document.write(`
       <html>
         <head>
           <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,7 +29,11 @@
         </head>
         <body>
           <div class="spinner"></div>
-          <h2>กำลังสร้างเอกสาร PDF...</h2>
-          <p style="font-size: 20px;">กรุณารอสักครู่...</p>
+          <h2>กำลังสร้างเอกสาร HTML...</h2>
+          <p style="font-size: 20px;">กรุณารอสักครู่....</p>
+          <p style="align-text: center"><a href="https://guruchian.blogspot.com/">Created and developed by GuruChian</a></p>
         </body>
       </html>
+  `);
+}
+      
