@@ -1,4 +1,4 @@
-function myFunction() {
+function getWebConfig() {
   document.write(`
       <html>
         <head>
